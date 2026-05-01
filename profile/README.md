@@ -20,6 +20,36 @@ AI-assisted work should be structured, context-aware, evidence-bearing, and clai
 | `unit27-proof-ledger` | `U27-S04` | Durable proof artifacts for tests, demos, evals, and release evidence. |
 | `unit27-boundary-engine` | `U27-S05` | Public-claim review against recorded proof and declared boundaries. |
 
+## System Order
+
+The public field kits have two orders: the order they were released, and the order they now form as a working system.
+
+### Release Order
+
+```text
+u27-check -> Stack Engine -> Context Engine -> Proof Ledger -> Boundary Engine
+```
+
+`u27-check` was the first public field kit released by Unit27. It began as a launch discipline: before anything public goes out, check whether the first real user path breaks.
+
+That origin still matters. The first tool built the gate.
+
+### Operating Sequence
+
+```text
+Stack Engine -> Context Engine -> Proof Ledger -> Boundary Engine -> u27-check
+```
+
+- `Stack Engine` shapes the work.
+- `Context Engine` prepares the handoff.
+- `Proof Ledger` records the evidence.
+- `Boundary Engine` contains the public claim.
+- `u27-check` gates the first user path.
+
+The sequence is simple by design: define the system, prepare the context, record the proof, constrain the claim, then check the launch surface.
+
+In release history, `u27-check` came first. In operational use, it stands last: the final gate before a real user reaches the surface.
+
 ## Release Doctrine
 
 Public field kits are not secondary artifacts.
