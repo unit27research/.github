@@ -12,14 +12,14 @@ These packages support a narrow doctrine:
 
 AI-assisted work should be structured, context-aware, evidence-bearing, and claim-bound.
 
-| Repository | Release Class | Purpose |
+| Repository | System Class | Purpose |
 |---|---:|---|
 | `u27-check` | `U27-C01` | Pre-launch review discipline for public-facing systems. |
 | `unit27-stack-engine` | `U27-S02` | Strategy-to-implementation planning for AI workflow architectures. |
 | `unit27-context-engine` | `U27-S03` | Governed, token-aware context packaging for AI-assisted work. |
-| `unit27-proof-ledger` | `U27-S04` | Durable proof artifacts for tests, demos, evals, and release evidence. |
-| `unit27-boundary-engine` | `U27-S05` | Public-claim review against recorded proof and declared boundaries. |
-| `unit27-handoff-engine` | `U27-S06` | Agent-ready work packets from objectives and context. |
+| `unit27-handoff-engine` | `U27-S04` | Agent-ready work packets from objectives and context. |
+| `unit27-proof-ledger` | `U27-S05` | Durable proof artifacts for tests, demos, evals, and release evidence. |
+| `unit27-boundary-engine` | `U27-S06` | Public-claim review against recorded proof and declared boundaries. |
 
 ## System Order
 
