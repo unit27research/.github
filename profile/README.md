@@ -26,6 +26,10 @@ The short version:
 
 Each repository is usable on its own. Together, they form a public example of how Unit27 builds AI-assisted work: structured before execution, evidence-bearing before publication, and bounded before scale.
 
+For the guided public binder, start here:
+
+- [`unit27-field-kit-suite`](https://github.com/unit27research/unit27-field-kit-suite)
+
 ## Use The Chain
 
 ```bash
@@ -55,6 +59,10 @@ AI-assisted work should be structured, context-aware, evidence-bearing, and clai
 | [`unit27-eval-bench`](https://github.com/unit27research/unit27-eval-bench) | `U27-S05` | Deterministic eval case execution before proof recording. |
 | [`unit27-proof-ledger`](https://github.com/unit27research/unit27-proof-ledger) | `U27-S06` | Durable proof artifacts for tests, demos, evals, and release evidence. |
 | [`unit27-boundary-engine`](https://github.com/unit27research/unit27-boundary-engine) | `U27-S07` | Public-claim review against recorded proof and declared boundaries. |
+
+## Suite Package
+
+[`unit27-field-kit-suite`](https://github.com/unit27research/unit27-field-kit-suite) is the public binder for the open tooling channel. It is not another engine. It preserves the operating order, field-kit map, and first-use workflow in one orientation package.
 
 ## System Order
 
