@@ -50,19 +50,33 @@ These packages support a narrow doctrine:
 
 AI-assisted work should be structured, context-aware, evidence-bearing, and claim-bound.
 
-| Repository | System Class | Purpose |
-|---|---:|---|
-| [`u27-check`](https://github.com/unit27research/u27-check) | `U27-C01` | Pre-launch review discipline for public-facing systems. |
-| [`unit27-stack-engine`](https://github.com/unit27research/unit27-stack-engine) | `U27-S02` | Strategy-to-implementation planning for AI workflow architectures. |
-| [`unit27-context-engine`](https://github.com/unit27research/unit27-context-engine) | `U27-S03` | Governed, token-aware context packaging for AI-assisted work. |
-| [`unit27-handoff-engine`](https://github.com/unit27research/unit27-handoff-engine) | `U27-S04` | Agent-ready work packets from objectives and context. |
-| [`unit27-eval-bench`](https://github.com/unit27research/unit27-eval-bench) | `U27-S05` | Deterministic eval case execution before proof recording. |
-| [`unit27-proof-ledger`](https://github.com/unit27research/unit27-proof-ledger) | `U27-S06` | Durable proof artifacts for tests, demos, evals, and release evidence. |
-| [`unit27-boundary-engine`](https://github.com/unit27research/unit27-boundary-engine) | `U27-S07` | Public-claim review against recorded proof and declared boundaries. |
+| Repository | Class | Operating Position | Purpose |
+|---|---:|---:|---|
+| [`unit27-stack-engine`](https://github.com/unit27research/unit27-stack-engine) | `U27-S02` | `01/07` | Strategy-to-implementation planning for AI workflow architectures. |
+| [`unit27-context-engine`](https://github.com/unit27research/unit27-context-engine) | `U27-S03` | `02/07` | Governed, token-aware context packaging for AI-assisted work. |
+| [`unit27-handoff-engine`](https://github.com/unit27research/unit27-handoff-engine) | `U27-S04` | `03/07` | Agent-ready work packets from objectives and context. |
+| [`unit27-eval-bench`](https://github.com/unit27research/unit27-eval-bench) | `U27-S05` | `04/07` | Deterministic eval case execution before proof recording. |
+| [`unit27-proof-ledger`](https://github.com/unit27research/unit27-proof-ledger) | `U27-S06` | `05/07` | Durable proof artifacts for tests, demos, evals, and release evidence. |
+| [`unit27-boundary-engine`](https://github.com/unit27research/unit27-boundary-engine) | `U27-S07` | `06/07` | Public-claim review against recorded proof and declared boundaries. |
+| [`u27-check`](https://github.com/unit27research/u27-check) | `U27-C01` | `07/07` | Pre-launch review discipline for public-facing systems. |
 
 ## Suite Package
 
 [`unit27-field-kit-suite`](https://github.com/unit27research/unit27-field-kit-suite) is the public binder for the open tooling channel. It is not another engine. It preserves the operating order, field-kit map, and first-use workflow in one orientation package.
+
+## Numbering Doctrine
+
+Unit27 uses structural class numbers and operating positions separately.
+
+```text
+U27-S## = structural system class
+U27-C## = check / gate class
+U27-FKS## = field kit suite class
+OPERATING_POSITION = order inside the public field-kit chain
+REF_ID = stable public package identifier tied to the structural class
+```
+
+`Stack Engine` is `U27-S02`, but it is first in this public operating chain. The class number belongs to the broader Unit27 registry; the operating position describes how these public field kits are used together.
 
 ## System Order
 
