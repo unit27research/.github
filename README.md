@@ -10,7 +10,7 @@ GitHub renders the public organization page from:
 profile/README.md
 ```
 
-The profile is the public start page for Unit27's open field kits: the operating sequence, repository links, access status, and first-use guidance all live there.
+The profile is the public start page for Unit27's open field kits and adjacent public utilities: the operating sequence, repository links, access status, and first-use guidance all live there.
 
 ## Public Profile Source
 
