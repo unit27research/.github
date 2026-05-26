@@ -71,6 +71,7 @@ These public utilities sit beside the field-kit operating sequence rather than i
 |---|---:|---|
 | [`zero-env-proxy`](https://github.com/unit27research/zero-env-proxy) | `ADJACENT_RUNTIME_BOUNDARY_UTILITY` | Routes approved local automation workers through a governed credential boundary without handing provider keys to worker files. |
 | [`humility-engine`](https://github.com/unit27research/humility-engine) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews drafts for likely uncertainty laundering, proofwashing, and claim/evidence scope mismatch before publication. |
+| [`claim-drift`](https://github.com/unit27research/claim-drift) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews how public claims change between draft versions and flags possible confidence, scope, and proof-language drift. |
 
 ## Suite Package
 
