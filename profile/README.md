@@ -76,6 +76,10 @@ These public utilities sit beside the field-kit operating sequence rather than i
 | [`evidence-floor`](https://github.com/unit27research/evidence-floor) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether claims meet declared evidence floors for their claim class. |
 | [`caveat-drop`](https://github.com/unit27research/caveat-drop) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether public claims dropped limitations that should still bound the evidence. |
 
+## Adjacent Review Suite
+
+[`proofwashing-suite`](https://github.com/unit27research/proofwashing-suite) is the public binder for adjacent claim-review utilities. It maps uncertainty laundering, proofwashing, and evidence-boundary review across Humility Engine, Evidence Floor, Proof Decay, Caveat Drop, and Claim Drift.
+
 ## Suite Package
 
 [`unit27-field-kit-suite`](https://github.com/unit27research/unit27-field-kit-suite) is the public binder for the open tooling channel. It is not another engine. It preserves the operating order, field-kit map, and first-use workflow in one orientation package.
