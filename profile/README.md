@@ -73,6 +73,7 @@ These public utilities sit beside the field-kit operating sequence rather than i
 | [`humility-engine`](https://github.com/unit27research/humility-engine) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews drafts for likely uncertainty laundering, proofwashing, and claim/evidence scope mismatch before publication. |
 | [`claim-drift`](https://github.com/unit27research/claim-drift) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews how public claims change between draft versions and flags possible confidence, scope, and proof-language drift. |
 | [`proof-decay`](https://github.com/unit27research/proof-decay) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether stale or condition-shifted proof is being reused to support current claims. |
+| [`evidence-floor`](https://github.com/unit27research/evidence-floor) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether claims meet declared evidence floors for their claim class. |
 
 ## Suite Package
 
