@@ -75,10 +75,13 @@ These public utilities sit beside the field-kit operating sequence rather than i
 | [`proof-decay`](https://github.com/unit27research/proof-decay) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether stale or condition-shifted proof is being reused to support current claims. |
 | [`evidence-floor`](https://github.com/unit27research/evidence-floor) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether claims meet declared evidence floors for their claim class. |
 | [`caveat-drop`](https://github.com/unit27research/caveat-drop) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether public claims dropped limitations that should still bound the evidence. |
+| [`evidence-packet`](https://github.com/unit27research/evidence-packet) | `ADJACENT_EVIDENCE_BOUNDARY_UTILITY` | Packages local evidence artifacts with hashes, declared scope, limitations, and risk-review notes. |
 
 ## Adjacent Review Suite
 
 [`proofwashing-suite`](https://github.com/unit27research/proofwashing-suite) is the public binder for adjacent claim-review utilities. It maps uncertainty laundering, proofwashing, and evidence-boundary review across Humility Engine, Evidence Floor, Proof Decay, Caveat Drop, and Claim Drift.
+
+Evidence Packet sits beside that review suite as an artifact-packaging utility: artifact does not equal proof, and packeted evidence still needs human review before broader claims are made from it.
 
 ## Suite Package
 
