@@ -76,12 +76,13 @@ These public utilities sit beside the field-kit operating sequence rather than i
 | [`evidence-floor`](https://github.com/unit27research/evidence-floor) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether claims meet declared evidence floors for their claim class. |
 | [`caveat-drop`](https://github.com/unit27research/caveat-drop) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews whether public claims dropped limitations that should still bound the evidence. |
 | [`artifact-manifest`](https://github.com/unit27research/artifact-manifest) | `ADJACENT_EVIDENCE_BOUNDARY_UTILITY` | Manifests local artifacts with hashes, declared scope, limitations, and risk-review notes. |
+| [`release-desk`](https://github.com/unit27research/release-desk) | `ADJACENT_RELEASE_REVIEW_UTILITY` | Provides a local review surface for release claims, artifact records, boundary notes, and approval gates before publication. |
 
 ## Adjacent Review Suite
 
 [`proofwashing-suite`](https://github.com/unit27research/proofwashing-suite) is the public binder for adjacent claim-review utilities. It maps uncertainty laundering, proofwashing, and evidence-boundary review across Humility Engine, Evidence Floor, Proof Decay, Caveat Drop, and Claim Drift.
 
-Artifact Manifest sits beside that review suite as an artifact-packaging utility: artifact does not equal proof, and manifest records still need human review before broader claims are made from them.
+Artifact Manifest and Release Desk sit beside that review suite as release-support utilities: artifact does not equal proof, and release records still need human review before broader claims are made from them.
 
 ## Suite Package
 
