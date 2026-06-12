@@ -69,6 +69,7 @@ These public utilities sit beside the field-kit operating sequence rather than i
 
 | Repository | Position | Purpose |
 |---|---:|---|
+| [`u27-scan`](https://github.com/unit27research/u27-scan) | `ADJACENT_STRUCTURAL_INTELLIGENCE_WORKBENCH` | Extracts and renders cited structural findings from source packets, with enforced evidence quotes, rejection discipline, and quality ledgers. |
 | [`agent-authority-protocol`](https://github.com/unit27research/agent-authority-protocol) | `ADJACENT_AUTHORITY_CLASSIFICATION_PROTOCOL` | Classifies delegated AI-agent authority with Authority-Reach-Delegation before tools, credentials, autonomy, or delegation rights are granted. |
 | [`zero-env-proxy`](https://github.com/unit27research/zero-env-proxy) | `ADJACENT_RUNTIME_BOUNDARY_UTILITY` | Routes approved local automation workers through a governed credential boundary without handing provider keys to worker files. |
 | [`humility-engine`](https://github.com/unit27research/humility-engine) | `ADJACENT_CLAIM_REVIEW_UTILITY` | Reviews drafts for likely uncertainty laundering, proofwashing, and claim/evidence scope mismatch before publication. |
@@ -79,6 +80,8 @@ These public utilities sit beside the field-kit operating sequence rather than i
 | [`artifact-manifest`](https://github.com/unit27research/artifact-manifest) | `ADJACENT_EVIDENCE_BOUNDARY_UTILITY` | Manifests local artifacts with hashes, declared scope, limitations, and risk-review notes. |
 | [`release-desk`](https://github.com/unit27research/release-desk) | `ADJACENT_RELEASE_REVIEW_UTILITY` | Provides a local review surface for release claims, artifact records, boundary notes, and approval gates before publication. |
 | [`source-index`](https://github.com/unit27research/source-index) | `ADJACENT_SOURCE_REVIEW_UTILITY` | Maps visible repository surfaces, boundary signals, and risky public-claim language before release review. |
+
+u27-scan sits beside the chain at the source-evidence layer: it turns source packets into cited structural findings, then shows which candidate claims failed the evidence gate.
 
 Agent Authority Protocol and Zero-Env Proxy sit beside the chain at the agent authority and runtime-boundary layer: one classifies delegated authority before access is granted, while the other keeps local worker credentials bounded after access exists.
 
